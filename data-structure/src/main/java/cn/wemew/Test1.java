@@ -1,6 +1,8 @@
 package cn.wemew;
 
-import jdk.nashorn.internal.parser.Scanner;
+
+import java.util.Queue;
+import java.util.Scanner;
 
 /**
  * @ClassName: Test1
@@ -14,7 +16,22 @@ import jdk.nashorn.internal.parser.Scanner;
  * @Version: 1.0
  */
 public class Test1 {
-    public static void main(String[] args) {
+
+    public static void main(java.lang.String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //输入
+        String str = sc.next();
+        //数组
+        String[] arr =new String[]{"abc","bd","df","ea4"};
+        for (String s : arr) {
+            if (str.contains(s)){
+                String s1 = str.replaceAll(s, "***");
+                System.out.println(s1);
+                return;
+            }
+        }
+
 
     }
+
 }
