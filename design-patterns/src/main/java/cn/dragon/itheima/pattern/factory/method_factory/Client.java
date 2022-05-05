@@ -10,12 +10,12 @@ package cn.dragon.itheima.pattern.factory.method_factory;
  */
 public class Client {
     public static void main(String[] args) {
-        //1 创建咖啡店类
+       /* //1 创建咖啡店类
         CoffeeStore store = new CoffeeStore();
         //2 创建对象
         AmericanCoffeeFactory factory = new AmericanCoffeeFactory();
         store.setFactory(factory);
         Coffee latte = store.orderCoffee("latte");
-        System.out.println(latte.getName());
+        System.out.println(latte.getName());*/
     }
 }
