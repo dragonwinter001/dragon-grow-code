@@ -2,7 +2,7 @@ package cn.dragon.itheima.priniples.demo2.before;
 
 /**
  * @ClassName: Square
- * @Description: 正方型类
+ * @Description: 正方形类
  * @Date: 2022/5/2 22:47
  * @Author: chj
  * @Version: 1.0
