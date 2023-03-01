@@ -24,6 +24,7 @@ public class Square implements  Quarilateral{
         return side;
     }
 
+
     public void setSide(double side) {
         this.side = side;
     }
