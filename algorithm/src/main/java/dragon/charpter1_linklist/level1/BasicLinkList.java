@@ -23,7 +23,7 @@ public class BasicLinkList {
         Node node = head;
         while (node!=null){
             length++;
-            node = head.next;
+            node = node.next;
         }
         return length;
     }
